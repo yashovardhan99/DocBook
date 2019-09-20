@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">DocBook</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="i_am_a_patient">I am a Patient</string>
+    <string name="i_am_a_doctor">I am a Doctor</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="login_as_patient">Login as Patient</string>
+    <string name="login_as_doctor">Login as Doctor</string>
 </resources>

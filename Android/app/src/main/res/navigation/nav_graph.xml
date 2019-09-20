@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/preLoginFragment">
+    <fragment
+        android:id="@+id/preLoginFragment"
+        android:name="com.yashovardhan99.docbook.PreLoginFragment"
+        android:label="DocBook"
+        tools:layout="@layout/fragment_prelogin">
+        <action
+            android:id="@+id/action_preLoginFragment3_to_doctorLoginFragment3"
+            app:destination="@id/doctorLoginFragment" />
+        <action
+            android:id="@+id/action_preLoginFragment3_to_patientLoginFragment"
+            app:destination="@id/patientLoginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/doctorLoginFragment"
+        android:name="com.yashovardhan99.docbook.DoctorLoginFragment"
+        android:label="Doctor Login"
+        tools:layout="@layout/fragment_doctor_login" />
+    <fragment
+        android:id="@+id/patientLoginFragment"
+        android:name="com.yashovardhan99.docbook.PatientLoginFragment"
+        android:label="Patient Login"
+        tools:layout="@layout/fragment_patient_login" />
+</navigation>
